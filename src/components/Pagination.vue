@@ -36,7 +36,7 @@ export default {
           break;
           case '首页':
           this.pageBtn = [1,2,3,4,5]
-          this.currentPage =1
+          this.changeBtn(1)
           break;
           default:
           break;
